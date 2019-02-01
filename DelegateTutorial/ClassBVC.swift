@@ -26,12 +26,12 @@ class ClassBVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        firstView.backgroundColor = .cyan
+        firstView.backgroundColor = .red
         firstView.layer.borderColor = UIColor.white.cgColor
         firstView.layer.borderWidth = 2.0
         firstView.layer.cornerRadius = firstView.frame.width / 2
         firstView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap(_:))))
-        secondView.backgroundColor = .brown
+        secondView.backgroundColor = .blue
         secondView.layer.borderColor = UIColor.white.cgColor
         secondView.layer.borderWidth = 2.0
         secondView.layer.cornerRadius = secondView.frame.width / 2
